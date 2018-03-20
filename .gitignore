@@ -1,0 +1,9 @@
+# Things that should be installed locally
+node_modules/
+
+# IDE related files
+.vscode
+
+# WebdriverIO related files
+errorShots/
+src/

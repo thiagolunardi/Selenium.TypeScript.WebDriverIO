@@ -1,0 +1,37 @@
+{
+  "name": "webdriver_typescript",
+  "version": "1.0.0",
+  "description": "An example project using WebdriverIO with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "pretest":"node ./node_modules/typescript/lib/tsc.js",
+    "test": "node ./node_modules/webdriverio/bin/wdio",
+    "posttest": "node ./node_modules/rimraf/bin.js src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillLuce/WebdriverIO_Typescript.git"
+  },
+  "keywords": [
+    "Selenium",
+    "Mocha",
+    "WebdriverIO"
+  ],
+  "author": "William Luce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WillLuce/WebdriverIO_Typescript/issues"
+  },
+  "homepage": "https://github.com/WillLuce/WebdriverIO_Typescript#readme",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.32",
+    "@types/webdriverio": "^4.4.0",
+    "chai": "^3.5.0",
+    "rimraf": "^2.5.4",
+    "typescript": "^2.0.6",
+    "wdio-mocha-framework": "^0.5.7",
+    "wdio-selenium-standalone-service": "0.0.7",
+    "webdriverio": "^4.5.0"
+  }
+}
